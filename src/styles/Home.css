@@ -1,0 +1,51 @@
+.Home-title {
+  padding: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #5f935f;
+  text-decoration: underline;
+}
+
+.Category-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.Meal-card {
+  margin: 14px;
+  padding: 18px;
+  box-shadow: 1px 10px 5px 0px gray;
+  border: 2px solid gray;
+  border-radius: 8px;
+  transition: all .2s ease-in-out;
+}
+
+.Meal-card:hover {
+  transform: scale(1.1);
+  border-color: #5f935f;;
+}
+
+.Meal-card img {
+  width: auto;
+  height: 50%;
+}
+
+.Meal-card h4 {
+  font-size: 22px;
+  color: #5f935f;;
+}
+
+.Meal-card button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff4020;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Meal-card button:hover {
+  color: #fff;
+  background-color: #d62708;
+}
