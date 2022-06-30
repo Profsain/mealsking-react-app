@@ -1,0 +1,39 @@
+.Header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 16px;
+  align-items: center;
+  align-content: center;
+  background-color: #fff;
+  box-shadow: 1px 10px 5px 0px rgba(209,209,209,0.5);
+}
+
+.Brand-logo {
+  width: 150px;
+}
+
+.Search-form > input {
+  width: 900px;
+  height: 30px;
+  padding: 22px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.Menu-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.Menu-link > li {
+  /* margin-right: 24px; */
+  padding: 8px 26px;
+  border: 8px;
+  cursor: pointer;
+}
