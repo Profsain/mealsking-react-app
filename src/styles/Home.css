@@ -22,7 +22,8 @@
 
 .Meal-card:hover {
   transform: scale(1.1);
-  border-color: #5f935f;;
+  border-color: #5f935f;
+  cursor: pointer;
 }
 
 .Meal-card img {
@@ -48,4 +49,5 @@
 .Meal-card button:hover {
   color: #fff;
   background-color: #d62708;
+  cursor: pointer;
 }

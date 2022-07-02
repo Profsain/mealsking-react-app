@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -18,9 +19,15 @@ const Home = () => {
       });
   }, []);
 
+  // navigate to meals category more page
+  let navigate = useNavigate();
+  const loadMealsCategory = (categoryName) => {
+    navigate('/meal-explore', {state: categoryName});
+  }
+
   const categories = mealsCategory.map((items) => {
     return (
-      <div className="Meal-card">
+      <div className="Meal-card" key={items.idCategory} onClick={() => loadMealsCategory(items.strCategory)}>
         <img src={items.strCategoryThumb} alt={items.strCategory} />
         <h4>{items.strCategory}</h4>
         <button type="button" className="Explore-btn">Explore Meals</button>
