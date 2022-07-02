@@ -34,3 +34,24 @@
 .Meals-headline {
   width: 180px;
 }
+
+.Button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Button-container button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff4020;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Button-container button:hover {
+  color: #fff;
+  background-color: #d62708;
+  cursor: pointer;
+}

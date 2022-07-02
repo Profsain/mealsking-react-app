@@ -13,6 +13,10 @@
   width: 150px;
 }
 
+.Brand-logo:hover {
+  cursor: pointer;
+}
+
 .Search-form > input {
   width: 900px;
   height: 30px;
